@@ -28,4 +28,4 @@ steps:
     azureSubscription: 'Azure subscription 1(d736c308-d102-411f-9f2c-84857a53b9f7)'
     appType: 'webAppLinux'
     WebAppName: 'myreactwebapp1'
-    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)'
